@@ -26,8 +26,8 @@ const Skills = () => {
               style={{ animationDelay: `${index * 0.05}s` }}
             >
               <Badge 
-                variant="secondary" 
-                className="text-base px-6 py-3 bg-card hover:bg-primary hover:text-primary-foreground transition-all duration-300 cursor-default border border-border hover:border-primary hover:shadow-lg hover:shadow-primary/20 hover:scale-110"
+                variant="outline" 
+                className="text-base px-6 py-3 bg-card/50 backdrop-blur-sm text-foreground hover:bg-primary hover:text-primary-foreground transition-all duration-300 cursor-default border-2 border-border hover:border-primary hover:shadow-xl hover:shadow-primary/30 hover:scale-105"
               >
                 {skill}
               </Badge>
