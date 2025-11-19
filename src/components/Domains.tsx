@@ -1,11 +1,16 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Briefcase, DollarSign, ShoppingBag, BarChart3, Globe, Layers } from "lucide-react";
+import { Briefcase, DollarSign, ShoppingBag, BarChart3, Globe, Layers, Heart, Package } from "lucide-react";
 
 const domains = [
   {
     title: "HRMS & Timesheet System",
     icon: Briefcase,
     description: "Enterprise HR management and time tracking solutions"
+  },
+  {
+    title: "Healthcare & Wellness",
+    icon: Heart,
+    description: "Healthcare applications and wellness platforms"
   },
   {
     title: "Fintech KYC & Payment Portal",
@@ -16,6 +21,11 @@ const domains = [
     title: "E-commerce Web Platform",
     icon: ShoppingBag,
     description: "Full-featured online shopping experiences"
+  },
+  {
+    title: "Product-Based Solutions",
+    icon: Package,
+    description: "Supply chain, anti-counterfeiting, and product management"
   },
   {
     title: "Enterprise Analytics Dashboard",
