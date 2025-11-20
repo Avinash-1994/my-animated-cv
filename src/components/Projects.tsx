@@ -6,28 +6,24 @@ const projects = [
   {
     title: "Zlaata",
     description: "Trendy women's fashion e-commerce platform with extensive clothing collections, smart product recommendations, and seamless shopping experience",
-    tech: ["React", "E-commerce", "Responsive Design", "Payment Integration"],
     url: "https://www.zlaata.com/",
     category: "E-commerce"
   },
   {
     title: "DigiTathya",
     description: "Anti-counterfeiting and supply chain verification platform using QR technology for product authentication, warranty management, and brand protection",
-    tech: ["Angular", "QR Technology", "Supply Chain", "Security"],
     url: "https://digitathya.com/",
     category: "Product Security"
   },
   {
     title: "Zrika",
-    description: "Healthcare and wellness platform providing comprehensive health solutions and patient management systems",
-    tech: ["React", "Healthcare", "Patient Management", "UI/UX"],
+    description: "Risk engine management tool for merchant payment transactions, providing fraud detection, transaction monitoring, and risk assessment for secure payment processing",
     url: "https://www.zrika.com/",
-    category: "Healthcare"
+    category: "Payment Security"
   },
   {
     title: "GoshHR",
     description: "Cloud-based HR software with MyTimesheet for workflow tracking, MyNest for amenities management, and TimeLyze for productivity analytics",
-    tech: ["Angular", "HRMS", "Timesheet", "Dashboard", "Analytics"],
     url: "https://goshhr.com/",
     category: "HRMS"
   }
@@ -82,18 +78,6 @@ const Projects = () => {
                     {project.description}
                   </p>
                 </CardHeader>
-                <CardContent>
-                  <div className="flex flex-wrap gap-2">
-                    {project.tech.map((tech) => (
-                      <span
-                        key={tech}
-                        className="text-xs px-3 py-1 rounded-full bg-primary/10 text-primary border border-primary/20"
-                      >
-                        {tech}
-                      </span>
-                    ))}
-                  </div>
-                </CardContent>
               </Card>
             </div>
           ))}
